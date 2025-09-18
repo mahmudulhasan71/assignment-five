@@ -50,11 +50,34 @@ for (const callButton of callButtons) {
             const serviceNumber = card.querySelector('h3').innerText
             alert(`Calling.. :${serviceNumber}`)
 
-            coin -=20
-            callCount.innerText=coin;
+            coin -= 20
+            callCount.innerText = coin;
+
+            //history section functionality
+
+            let p = document.createElement("p")
+            const now = new Date().toLocaleTimeString();
+
+            p.innerHTML = `<div class="add-history shadow-sm px-2 py-3 mt-2 rounded-sm mb-2 flex justify-between items-center">
+             <div>
+                 <p class="text-[14px] font-bold tracking-tight">${serviceName}</p>
+                 <p class="text-[14px] font-semibold">${serviceNumber}</p>
+             </div>
+             <p class="text-[12px] font-semibold">${now}</p>
+            
+             
+            </div>`
+            const localTime = history.appendChild(p)
+            //clear button functionality
+
+            const clear = document.getElementById('clear-btn')
+            clear.addEventListener('click', function () {
+                localTime.innerText = ""
+            })
 
         }
 
     })
 }
+
 
