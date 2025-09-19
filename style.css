@@ -1,0 +1,141 @@
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+    /* .nav-bar {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+      
+    } */
+
+    .brand-name {
+        justify-content: center;
+    }
+
+    /* .header-btn {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        gap: 10px;
+    } */
+
+
+
+    .banner {
+        /* margin-top: 70px; */
+
+    }
+
+    .banner .image {
+        max-width: 60px;
+        margin: 0 auto;
+    }
+
+    .banner .image img {
+        width: 100%;
+    }
+
+    .heading h1 {
+        font-size: 30px;
+    }
+
+    .paragraph p {
+        font-size: 12px;
+        padding: 20px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 30px 20px;
+    }
+
+    .left {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .card {
+        width: 100% !important;
+        max-width: 320px;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .history {
+        height: auto;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 12px;
+    }
+
+    .header-btn {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .banner {
+        margin-top: 70px;
+
+    }
+
+    .banner .image {
+        max-width: 50px;
+        margin: 0 auto;
+    }
+
+    .banner .image img {
+        width: 100%;
+    }
+
+    .heading h1 {
+        font-size: 25px;
+    }
+
+    .paragraph p {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+        gap: 30px;
+    }
+
+    .left {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .card {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .history {
+        height: auto;
+    }
+}
