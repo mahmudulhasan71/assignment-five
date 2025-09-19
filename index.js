@@ -75,9 +75,9 @@ for (const callButton of callButtons) {
                 localTime.innerText = ""
             })
 
+
         }
 
     })
 }
-
 

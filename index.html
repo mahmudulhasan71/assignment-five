@@ -19,12 +19,12 @@
     <!-- header section  -->
 
     <section class="header bg-[#ffffff] w-full h-[76px] ">
-        <div class="nav-bar max-w-[1200px] mx-auto flex justify-between items-center p-4">
+        <div class="nav-bar max-w-[1200px] mx-auto flex flex-col justify-between items-center p-4 sm:  md:flex-row     lg:flex-row">
             <div class="brand-name flex  items-center gap-3">
                 <img class="w-[66px]" src="assets/logo.png" alt="">
                 <div class="name text-[24px] font-bold text-[#006747] leading-7">Emergency <br>Service</div>
             </div>
-            <div class="header-btn flex gap-3">
+            <div class="header-btn flex gap-3 mt-4">
                 <button
                     class="flex justify-center items-center gap-1 w-[80px] h-[40px] bg-[#ecfff0] p-2 rounded-full font-bold"><span
                         id="count">0</span><img class="w-[30px]" src="assets/heart.png" alt=""></button>
@@ -41,17 +41,17 @@
 
     <!-- banner section  -->
 
-    <section class="banner h-[220px] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] mt-5 ">
+    <section class="banner h-[160px] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] mt-20 p-2  sm:h-[220px] md:mt-10  lg:h-[240px]  ">
         <div class="banner-content text-center pt-6">
             <div class="image">
-                <img class="w-[66px] mx-auto" src="assets/logo-dark.png" alt="">
+                <img class="w-[40px] mx-auto sm:w-[66px]" src="assets/logo-dark.png" alt="">
             </div>
             <div class="heading ">
-                <h1 class="text-[40px] font-bold text-[#FFFFFF]">Emergency Service Directory</h1>
+                <h1 class="text-[18px] font-bold text-[#FFFFFF] sm:text-[36px] ">Emergency Service Directory</h1>
 
             </div>
             <div class="paragraph">
-                <p class="text-[16px] pt-2 font-semibold text-[#FFFFFF]">Government Emergency Services at Your Fingertip
+                <p class="text-[10px] pt-2 font-semibold text-[#FFFFFF] sm:text-[13px] p-2">Government Emergency Services at Your Fingertip
                     – A
                     Project by Government of the People’s Republic of
                     Bangladesh</p>
@@ -60,11 +60,11 @@
 
     </section>
 
-    <!-- call-service-section  -->
+    <!-- call-service-section  --> 
     <section class="call-service bg-[#f5fff6] ">
-        <div class="content max-w-[1260px] pt-[50px] flex justify-center mx-auto gap-x-5 gap-3">
+        <div class="content max-w-[1260px] pt-[50px] flex  justify-center mx-auto gap-x-5 gap-3">
             <!-- left  -->
-            <div class="left max-w-[900px] grid grid-cols-3 gap-x-5 gap-y-5 ">
+            <div class="left  max-w-[900px] grid grid-cols-1 ml-2 gap-x-5 gap-y-5 sm:grid-cols-1 md:grid-cols-2    lg:grid-cols-3  ">
                 <!-- card  -->
                 <div class="card max-w-[300px] h-[280px] shadow-md bg-[#ffffff] p-3 rounded-md ">
                     <div class="icon flex justify-between items-center pt-3">
@@ -72,8 +72,8 @@
                         <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
 
                     </div>
-                    <h1 class="text-[17px] font-bold mt-3 tracking-tight">National Emergency Number</h1>
-                    <p class="text-[16px] ">National Emergency</p>
+                    <h1 class="text-[15px] font-bold mt-3 tracking-tight sm:text-[17px] md:text-[16px] ">National Emergency Number</h1>
+                    <p class="text-[15px] ">National Emergency</p>
                     <h3 id="number" class="text-[22px] font-bold mt-2">999</h3>
                     <button class="w-[40px] bg-gray-300 p-1 mt-2 rounded-full">All</button>
 
@@ -272,7 +272,7 @@
                         <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
 
                     </div>
-                    <h1 class="text-[17px] font-bold mt-3 tracking-tight">Bangladesh Railway Helpline </h1>
+                    <h1 class="text-[17px] font-bold mt-3 tracking-tight md:text-[15px]">Bangladesh Railway Helpline </h1>
                     <p class="text-[16px] ">Bangladesh Railway</p>
                     <h3 id="number" class="text-[22px] font-bold mt-2">163</h3>
                     <button class="w-[px] bg-gray-300 p-1 mt-2 rounded-full">Travel</button>
@@ -294,7 +294,7 @@
 
             </div>
             <div class="right w-[300px] ">
-                <div id="history" class="history bg-white  h-[880px] shadow-md rounded-md p-4 ">
+                <div id="history" class="history bg-white  h-[2680px] shadow-md rounded-md p-4 sm:h-[2680px] md:h-[1500px] lg:h-[880px]  ">
                     <div class="head flex justify-between items-center gap-3">
                         <h3 class="text-[18px] font-semibold "><i class="fa-solid fa-clock "></i><span class="ml-2">Call
                                 History</span></h3>
@@ -306,7 +306,7 @@
         </div>
     </section>
     <section>
-        <div class="" id="x-icon"><i class="fa-solid fa-xmar"></i></div>
+        <div class="h-10 bg-[#f5fff6]"></div>
 
     </section>
     <!-- javascript  -->
