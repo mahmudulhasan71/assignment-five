@@ -17,7 +17,7 @@
 # What is Event Delegation in JavaScript? Why is it useful?
 
 ### Event delegation uses event bubbling to handle many child elements through an event listener on a common parent.
-     #### Saves memory and improves performance by reducing the number of listeners.
+#### Saves memory and improves performance by reducing the number of listeners.
 
 # What is the difference between preventDefault() and stopPropagation() methods?
 
